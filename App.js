@@ -3,12 +3,14 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
-  const [outputText, setOutputText] = useState("Open up App.js to start working on your app!");
   return (
     <View style={styles.container}>
-      <Text>{outputText}</Text>
-      <Button title = "Change Text" onPress={() => setOutputText('The text has changed to this!')}/>
-      <StatusBar style="auto" />
+    <View>
+    //this is where the input text feild goes
+    </View>
+    <View>
+    //this is where the code for the list if goals goes
+    </View>
     </View>
   );
 }
